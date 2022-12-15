@@ -4,31 +4,16 @@
 
 require_relative "../karel/ur_robot"
 require_relative "../mixins/turner"
+require_relative "../mixins/sensor_pack"
 # A class whose robots know how to sweep a short staircase of beepers
-class Bowling < UrRobot
+class Aleatoire < UrRobot
   include Turner
+  include SensorPack
 
-def pick_10
+def move_pick
 
-
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
-	pick_beeper
+move
+pick_beeper
 	
-end
-
-def drop_5
-	put_beeper
-	put_beeper
-put_beeper
-put_beeper
-	put_beeper
 end
 end 

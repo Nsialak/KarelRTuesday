@@ -148,7 +148,7 @@ end
 
 if __FILE__ == $0
   if $graphical
-     screen = window(35, 80) # (size, speed)
+     screen = window(40, 80) # (size, speed)
      screen.run do
        task
      end
