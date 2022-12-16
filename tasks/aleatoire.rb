@@ -16,4 +16,17 @@ move
 pick_beeper
 	
 end
+
+
+def beeper_detector
+
+	if next_to_a_beeper?
+		put_beeper
+	else
+		put_beeper
+		put_beeper
+	end
+
+end
+
 end 
