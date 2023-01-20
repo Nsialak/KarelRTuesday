@@ -205,7 +205,7 @@ karel.beeper_detector
 karel.move
 karel.beeper_detector
 karel.move
-karel.beeper_detector
+karel.beeper_detectors
 karel.move
 karel.beeper_detector
 karel.move
